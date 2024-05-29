@@ -13,4 +13,8 @@ Content-Length: 29
 grant_type=client_credentials
 
 
+curl --location --request POST 'localhost:8080/oauth/token?grant_type=client_credentials' \
+--header 'Authorization: Basic amF2YWludXNlLWNsaWVudDpqYXZhaW51c2Utc2VjcmV0'
+
+
 
